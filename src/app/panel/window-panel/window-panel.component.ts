@@ -7,9 +7,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class WindowPanelComponent implements OnInit {
 
+  name: string = "";
+
   constructor() { }
 
   ngOnInit() {
+  }
+  
+  addProduct() {
+    alert("adding");
   }
 
 }

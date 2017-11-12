@@ -8,6 +8,7 @@ import { MenuComponent } from './menu/menu.component';
 import { PanelComponent } from './panel/panel.component';
 import { MenuPanelComponent } from './panel/menu-panel/menu-panel.component';
 import { WindowPanelComponent } from './panel/window-panel/window-panel.component';
+import {CheckingComponent } from './panel/window-panel/checking/checking.component'
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { WindowPanelComponent } from './panel/window-panel/window-panel.componen
     MenuComponent,
     PanelComponent,
     MenuPanelComponent,
-    WindowPanelComponent
+    WindowPanelComponent,
+    CheckingComponent
   ],
   imports: [
     BrowserModule,

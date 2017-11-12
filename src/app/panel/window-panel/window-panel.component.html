@@ -1,3 +1,8 @@
+<div>
 <p>
-  window-panel works!
+  <button (click)="addProduct()">Add product</button>
+  <input type="text" [(ngModel)]="name"/>
 </p>
+{{ name }}
+</div>
+<app-checking></app-checking>

@@ -6,16 +6,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./menu-panel.component.css']
 })
 export class MenuPanelComponent implements OnInit {
-  
-  name: string = "";
 
   constructor() { }
 
   ngOnInit() {
-  }
-  
-  addProduct() {
-    alert("adding");
   }
 
 }
