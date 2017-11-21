@@ -8,4 +8,8 @@ import { Component } from "@angular/core";
 
 export class CheckingComponent {
     
+    onSendToChangePrice(){
+        alert("Price chanded");
+    }
+    
 }
