@@ -9,4 +9,4 @@ app.use(express.static("../dist/"));
 
 
 
-app.listen(process.env.PORT);
+app.listen(process.env.PORT || 3000);

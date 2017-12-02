@@ -5,7 +5,7 @@ const router = express.Router();
 
 const url = "http://www.dneonline.com/calculator.asmx?WSDL";
 
-let args = {
+var args = {
     intA: 2,
     intB: 4
 };
